@@ -1,0 +1,19 @@
+:root {
+  --accent: #0d6efd;
+  --muted: #6c757d;
+  --bg: #ffffff;
+}
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: #222;
+}
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.05));
+}
+header .nav-link { color: #333; text-decoration: none; }
+header .nav-link:hover { text-decoration: underline; }
+footer { font-size: 0.9rem; }
+@media (max-width: 576px) {
+  .hero h2 { font-size: 1.4rem; }
+}
